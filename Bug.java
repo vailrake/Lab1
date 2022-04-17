@@ -5,9 +5,7 @@ public class Bug {
     private static int age = 5;
 
     public Bug() {
-        name = "Fly";
-        speedInMetersPerSecond = 10;
-        weightInGrams = 5;
+        this("Fly",10,5);
     }
 
     public String toString() {
